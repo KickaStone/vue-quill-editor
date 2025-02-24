@@ -1,0 +1,11 @@
+version: '3'
+services:
+  dufs:
+    image: sigoden/dufs:latest
+    ports:
+      - '6990:5000'
+    volumes:
+#      必填
+      - E:\Projects\Web\vue-quill-editor\data:/data
+    command: /data -A
+    restart: always
