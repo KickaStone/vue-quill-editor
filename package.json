@@ -11,7 +11,6 @@
   "dependencies": {
     "@vueup/vue-quill": "^1.0.0-alpha.40",
     "element-plus": "^2.9.5",
-    "https": "^1.0.0",
     "install": "^0.13.0",
     "quill-image-drop-module": "^1.0.3",
     "quill-image-extend-module": "^1.1.2",
